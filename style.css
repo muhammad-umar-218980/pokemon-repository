@@ -1071,19 +1071,18 @@ text-decoration: underline;
 }
 
 @media (max-width:1000px){
-  body{
-    margin: 0px;
-    width: 100vw;
-  }
   html{
     width: 100%;
+  }
+  body{
+    margin: 0px;
   }
   .ul{
     flex-direction: column;
     column-gap: 30px;
   }
   .ul div{
-    display: none;
+    transform: translate(50%);
   }
 }
 
