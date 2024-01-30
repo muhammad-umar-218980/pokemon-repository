@@ -1165,15 +1165,7 @@ footer {
     grid-template-columns: repeat(7, 1fr);
   }
 
-  .ul1 li {
-    border-left: 2px;
-    /* border-right: 2px; */
-    border-color: white;
-    border-style: solid;
-    border-top: none;
-    border-bottom: none;
-    border-right: none;
-  }
+
 
   .ul div {
     display: none;
