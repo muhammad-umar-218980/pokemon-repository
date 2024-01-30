@@ -151,9 +151,147 @@ nav {
  cursor: pointer;
 }
 
+nav:nth-child(3) .collapse ul li ul li a{
+  width: 100%;
+    /* min-height: 80px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    text-align: center;
+    color: #898989;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    padding: 10px;
+}
+
+nav:nth-child(3) .collapse ul li ul li a:hover{
+  color: white;
+}
+
+nav:nth-child(3) .collapse ul li ul li i{
+  font-size: 30px;
+}
+nav:nth-child(3) .collapse ul li ul li p{
+  margin-top: 10px;
+}
+
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(1) a {
+
+  /* border-bottom: 5px solid #919191; */
+  border-bottom-left-radius: 5px;
+}
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(1):hover a{
+  background-color: #919191;
+}
+
+
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(2) a{
+  /* border-bottom: 5px solid #E3350D; */
+}
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(2):hover a{
+  background-color: #E3350D;
+}
+
+
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(3) a{
+  color: white;
+  background-color: #ee6b2f;
+  /* border-bottom: 5px solid #ee6b2f; */
+}
+
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(4) a{
+  /* border-bottom: 5px solid #e6bc2f; */
+}
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(4):hover a{
+  background-color: #e6bc2f;
+}
+
+
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(5) a{
+  /* border-bottom: 5px solid #4dad5b; */
+}
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(5):hover a{
+  background-color: #4dad5b;
+}
+
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(6) a{
+  /* border-bottom: 5px solid #30a7d7; */
+}
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(6):hover  a{
+  background-color: #30a7d7;
+}
+
+
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(7) a{
+  /* border-bottom: 5px solid #1b53ba; */
+  border-bottom-right-radius: 5px;
+}
+
+nav:nth-child(3) .collapse ul li ul li:nth-child(7):hover a{
+  background-color: #1b53ba;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .article2 section:hover {
  color: white;
 }
+
 
 .article2 section i {
  font-size: 30px;
@@ -971,6 +1109,10 @@ footer {
   display: none;
  }
 
+ nav .article2{
+  display: none;
+ }
+
  .navbar{
   display: block;
  }
@@ -1166,15 +1308,7 @@ footer {
   grid-template-columns: repeat(7,1fr);
  }
 
- .ul1 li{
-   border-left: 2px;
-   /* border-right: 2px; */
-   border-color: white;
-   border-style: solid;
-   border-top: none;
-   border-bottom: none;
-   border-right: none;
- }
+
 
  .ul div {
   display: none;
