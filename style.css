@@ -1194,6 +1194,13 @@ footer {
 
 }
 
+@media (max-width:480px){
+  footer{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 /* @media (max-width:768px){
   html{
     width: 200%;
