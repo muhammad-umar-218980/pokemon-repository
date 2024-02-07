@@ -943,10 +943,7 @@ main .title_heading {
 .slider .owl-item.active.center .slider-card {
   transform: scale(1.15);
   opacity: 1;
-  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to bottom, #ff5e62, #ff9966); */
-  background: rgb(35, 35, 35);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #1F1F1F !important;
   color: #fff;
 }
 
@@ -959,11 +956,6 @@ main .title_heading {
   transform: scale(0.9);
   opacity: 0.5;
   transition: all 0.3s;
-  height: 290px !important;
-}
-
-.text-center {
-  padding-bottom: 10px !important;
 }
 
 .slider-card img {
@@ -1003,10 +995,9 @@ main .title_heading {
 }
 
 .owl-dots .owl-dot.active {
-  background: #f44336 !important;
+  /* background: #f44336 !important; */
+  background-color: #1F1F1F !important;
 }
-
-
 
 
 
