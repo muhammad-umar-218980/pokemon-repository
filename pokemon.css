@@ -1097,7 +1097,8 @@ footer {
 @media (max-width:992px) {
 
   html{
-    width: 200%;
+    width: 100%;
+    overflow-x: hidden;
   }
   
   
