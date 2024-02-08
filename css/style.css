@@ -1367,6 +1367,10 @@ footer {
     max-width: 100%;
     overflow-x: hidden;
   }
+
+  footer{
+    overflow-x: scroll;
+  }
   
   
   body {
@@ -1462,8 +1466,30 @@ footer {
   .box_container section:nth-child(6):hover {
     animation: down6 0.2s ease 1;
   }
+  
+  aside{
+    position: fixed;
+    right: 0px;
+  }
 
 
+    .a_btn1 {
+      border: 3px solid #1F1F1F;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 0px;
+      border-right: none;
+      border-bottom: none;
+    }
+
+    .a_btn2{
+      border: 3px solid #1F1F1F;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-right: none;
+        border-top: none;
+    }
 
 
 }
